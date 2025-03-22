@@ -104,6 +104,7 @@ graph TB
      - naviagate to **SCRIPTS**
      - open `EDA.ipynb`
      - run each cell to:
+         - load in `cleaned_merged_tracks.csv`
          - perform EDA
          - visualize genre trends
            
@@ -111,7 +112,14 @@ graph TB
    - navigate to **SCRIPTS**
    - open `genre trend analysis.ipynb`
    - run each cell to:
+       - load in `cleaned_merged_tracks.csv`
        - perform time series decomposition
        - generate visualizations of genre trends
          
 5. **Genre Predictions**
+   - navigate to **SCRIPTS**
+   - open `genre predictive analysis.ipynb`
+   - run each cell to:
+       - load in `cleaned_merged_tracks.csv`
+       - use Prophet model to predict future genre listens
+       - visualize predictions
