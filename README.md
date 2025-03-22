@@ -21,7 +21,7 @@ Creating bar charts, line graphs, and other custom visualization aesthetics
 Windows & Mac
 
 ## Map of Documentation
-
+```mermaid
 graph TB
   A[Project2]
   A1[README.md]
@@ -71,6 +71,7 @@ graph TB
   style C1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+```
 
 
 ## Reproduction Instructions
