@@ -80,8 +80,8 @@ graph TB
 ## Reproduction Instructions
 
 1. **Set up Environment**
-   - install python
-   - install required libraries (listed above)
+  - install python
+  - install required libraries (listed above)
   
 2. **Download Dataset**
   - navigate to **DATA** folder
