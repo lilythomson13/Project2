@@ -1,3 +1,11 @@
+---
+title: "Obtaining Tracks Data"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
 To obtain the `tracks.csv` file: 
 
 1. Visit [FMA: A Dataset for Music Analysis](https://archive.ics.uci.edu/dataset/386/fma+a+dataset+for+music+analysis)
