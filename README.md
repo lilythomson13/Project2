@@ -35,6 +35,7 @@ graph TB
   C[DATA]
   C1[cleaned_merged_tracks.csv]
   C2[raw_albums.csv]
+  C4[obtaining tacks data.md]
   C3[Data Appendix]
   D[OUTPUT]
 
@@ -50,6 +51,7 @@ graph TB
   C --> C1
   C --> C2
   C --> C3
+  C --> C4
   A --> D
 
   %% Styling for main project folder (Dark Blue)
@@ -71,7 +73,44 @@ graph TB
   style C1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style C4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
 ```
 
 
 ## Reproduction Instructions
+
+1. **Set up Environment**
+   - install python
+   - install required libraries (listed above)
+  
+2. **Download Dataset**
+  - navigate to **DATA** folder
+  - download `raw_albums.csv`
+  - follow instructions in **obtaining tracks data.md** to download `tracks.csv`
+
+3. **Clean Data and EDA**
+   - navigate to **SCRIPTS** folder
+   - open `merging tracks and albums.ipynb`
+   - run each cell to:
+       - load in `raw_albums.csv` and `tracks.csv`
+       - clean dataset
+       - merge and download the datasets into one called `merged_tracks_and_albums.csv`
+    - navigate to **SCRIPTS**
+    - open `cleaning merged data.ipynb`
+    - run each cell to:
+       - load in `merged_tracks_and_albums.csv`
+       - clean dataset
+       - download cleaned version- `cleaned_merged_tracks.csv`
+     - naviagate to **SCRIPTS**
+     - open `EDA.ipynb`
+     - run each cell to:
+         - perform EDA
+         - visualize genre trends
+4. **Analyze Genre Trends**
+   - navigate to **SCRIPTS**
+   - open `genre trend analysis.ipynb`
+   - run each cell to:
+       - perform time series decomposition
+       - generate visualizations of genre trends
+5. **Genre Predictions**
+   - 
