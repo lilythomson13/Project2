@@ -80,13 +80,13 @@ graph TB
 ## Reproduction Instructions
 
 1. **Set up Environment**
-  - install python
-  - install required libraries (listed above)
+    - install python
+    - install required libraries (listed above)
   
 2. **Download Dataset**
-  - navigate to **DATA** folder
-  - download `raw_albums.csv`
-  - follow instructions in **obtaining tracks data.md** to download `tracks.csv`
+    - navigate to **DATA** folder
+    - download `raw_albums.csv`
+    - follow instructions in **obtaining tracks data.md** to download `tracks.csv`
 
 3. **Clean Data and EDA**
    - navigate to **SCRIPTS** folder
@@ -106,11 +106,12 @@ graph TB
      - run each cell to:
          - perform EDA
          - visualize genre trends
+           
 4. **Analyze Genre Trends**
    - navigate to **SCRIPTS**
    - open `genre trend analysis.ipynb`
    - run each cell to:
        - perform time series decomposition
        - generate visualizations of genre trends
+         
 5. **Genre Predictions**
-   - 
