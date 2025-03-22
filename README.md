@@ -2,7 +2,7 @@
 ## Goal
 Assess music genre trends over the past century and predict which genre of music will be the most listened to in the upcoming year. 
 ## Software and Platform
-- Types of Software Used: 
+### Types of Software Used: 
 - Programming Language: Python
 - Data Processing & Analysis:
   - Pandas - Reading, cleaning, filtering, and merging the dataset
@@ -11,7 +11,7 @@ Assess music genre trends over the past century and predict which genre of music
 Creating bar charts, line graphs, and other custom visualization aesthetics
 - Data Storage & Export: CSV Files
 - Cloud Computing: Google Colab
-- Packages Installed: 
+### Packages Installed: 
   - pandas
   - numpy
   - matplotlib
