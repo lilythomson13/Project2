@@ -35,7 +35,7 @@ graph TB
   C[DATA]
   C1[cleaned_merged_tracks.csv]
   C2[raw_albums.csv]
-  C4[obtaining tacks data.md]
+  C4[obtaining tracks data.md]
   C3[Data Appendix]
   D[OUTPUT]
   D1[Analysis Output.pdf]
