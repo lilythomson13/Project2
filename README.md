@@ -38,6 +38,8 @@ graph TB
   C4[obtaining tacks data.md]
   C3[Data Appendix]
   D[OUTPUT]
+  D1[Analysis Output.pdf]
+  D2[EDA.pdf]
 
   A --> A1
   A --> A2
@@ -53,6 +55,8 @@ graph TB
   C --> C3
   C --> C4
   A --> D
+  D --> D1
+  D --> D2
 
   %% Styling for main project folder (Dark Blue)
   style A fill:#003366,stroke:#001f3f,stroke-width:2px,color:white;
@@ -74,6 +78,8 @@ graph TB
   style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style D1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
+  style D2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
 ```
 
 
